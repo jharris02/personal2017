@@ -1,0 +1,94 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(imagesMain/cover.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#demo {
+    font-size: 3rem;
+    text-align: center;
+
+    
+}
+
+.counterText{
+    text-align: center;
+    padding-top: 6px;
+    color: #FF3B3F;
+}
+
+.counter{
+    color: #A9A9A9;
+}
+
+.infographic{
+    text-align: center;
+    color: #00000;
+}
+
+.infobox{
+    border: 2px solid #FF3B3F;
+    margin-left: 5px;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+.myButton{
+    background:url(imagesMain/Italy.jpg) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:300px;
+    color: black;
+    font-size: 4rem;
+    height:250px;
+}
+
+.spainButton{
+    background:url(imagesMain/barcelona.jpg) no-repeat;
+    
+    cursor:pointer;
+    border:none;
+    width:300px;
+    height:250px;
+    color: white;
+    font-size: 4rem;
+}
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-top: 4rem;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+.card{
+    border: 3px #FF3B3F solid;
+}
+
+.nav{
+    background-color: #FF3B3F;
+    margin-top: 20px;
+}
+
+.btn{
+    background-color: #FF3B3F ;
+    border-color: 000000;
+}
+
+.titleText{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.caroStr{
+    background-color: #FF3B3F;
+    
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
